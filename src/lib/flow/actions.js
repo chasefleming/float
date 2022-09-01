@@ -64,7 +64,7 @@ export const authenticate = () => {
 const configureFCL = (wallet) => {
   if (wallet === 'blocto') {
     config()
-      .put("discovery.wallet", "https://flow-wallet-testnet.blocto.app/authn")
+      .put("discovery.wallet", "https://fcl-discovery.onflow.org/testnet/authn")
       .put("discovery.wallet.method", "IFRAME/RPC")
   } else if (wallet === 'dapper') {
     config()
