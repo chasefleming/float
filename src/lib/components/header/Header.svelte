@@ -29,12 +29,21 @@
   $: resolvedName = initialize($user?.addr || "");
 </script>
 
+<<<<<<< HEAD
 <nav class="container">
+=======
+<nav>
+>>>>>>> e53db4c3bdcc206efb091f0e07878d314f960eb8
   <ul>
     <li>
       <!-- when on mainnnet, replace this line with the one below-->
       <h1>
+<<<<<<< HEAD
         <a href="/"><img src="/logo-testnet.png" alt="Emerald City FLOAT" /></a>
+=======
+        <a href="/"
+          ><img src="/floatlogowebpage.png" alt="Emerald City FLOAT" /></a>
+>>>>>>> e53db4c3bdcc206efb091f0e07878d314f960eb8
       </h1>
       <!-- <h1><a href="/"><img src="/floatlogowebpage.png" alt="Emerald City FLOAT" /></a></h1> -->
     </li>
@@ -68,9 +77,15 @@
       </a>
     </li>
 
+<<<<<<< HEAD
     <li>
       <a href="/about">About</a>
     </li>
+=======
+    <!-- <li>
+      <a href="/about">About</a>
+    </li> -->
+>>>>>>> e53db4c3bdcc206efb091f0e07878d314f960eb8
   </ul>
   <ul class="text-center">
     <!-- <li><a href="/create" role="button" class="small-button" sveltekit:prefetch>+</a></li> -->
@@ -90,6 +105,13 @@
 </nav>
 
 <style>
+  nav {
+    background-color: var(--card-background-color);
+    height: 10vh;
+    min-height: 70px;
+    box-shadow: var(--card-box-shadow);
+    margin-bottom: 20px;
+  }
   li {
     margin-right: 1rem;
   }
@@ -133,6 +155,7 @@
       max-width: 100px;
     }
   }
+<<<<<<< HEAD
 
   @media screen and (max-width: 780px) {
     nav {
@@ -143,6 +166,10 @@
       margin-bottom: 2rem;
     }
 
+=======
+
+  @media screen and (max-width: 780px) {
+>>>>>>> e53db4c3bdcc206efb091f0e07878d314f960eb8
     nav li:last-child {
       margin: 0;
     }
